@@ -1,0 +1,359 @@
+:root {
+  --vinho: #cb3737;
+  --preto: #1a1515;
+  --cinza: #dedddd;
+  --branco: #fff5ec;
+  --vinho-h: #b83232;
+}
+
+.dark-mode:root {
+  --vinho: #cb3737;
+  --preto: #fff5ec;
+  --cinza: #dedddd;
+  --branco: #1a1515;
+}
+
+.corpo-lista {
+  width: 100%;
+  height: 200vh;
+
+  background-color: var(--cinza);
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtros {
+  width: 19.264705882352942vw;
+  height: 96.32vh;
+  margin-top: 10.88vh;
+  margin-left: 4.411764705882353vw;
+}
+
+.texto-filtro h3 {
+  font-weight: 500;
+  font-family: "Poppins";
+  font-size: 2.8vh;
+}
+
+.texto-filtro ul li {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 2.3vh;
+
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.imagens-produtos {
+  width: 26vw;
+  height: 126vh;
+  margin-top: 5.44vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.descrição-produtos {
+  width: 35.80882352941177vw;
+  height: 126vh;
+  margin-right: 10vw;
+  margin-top: 5.44vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#img-whey {
+  width: 25.36764705882353vw;
+  height: 39.52vh;
+
+  margin-bottom: 2.72vh;
+  display: flex;
+}
+
+#s-produto {
+  width: 25.36764705882353vw;
+  height: 39.52vh;
+
+  margin-bottom: 2.72vh;
+  display: flex;
+}
+
+#t-produto {
+  width: 25.36764705882353vw;
+  height: 39.52vh;
+
+  margin-bottom: 2.72vh;
+  display: flex;
+}
+
+.d-whey {
+  width: 35vw;
+  height: 39.36vh;
+
+  background-color: var(--preto);
+  border-radius: 10px;
+
+  margin-bottom: 2.72vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-touro {
+  width: 35vw;
+  height: 39.36vh;
+
+  background-color: var(--preto);
+  border-radius: 10px;
+  color: var(--branco);
+
+  margin-bottom: 2.72vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-over {
+  width: 35vw;
+  height: 39.36vh;
+
+  background-color: var(--preto);
+  border-radius: 10px;
+  color: var(--branco);
+  margin-bottom: 2.72vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-whey h3 {
+  color: var(--branco);
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  text-align: center;
+}
+
+.d-whey h4 {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+  margin-left: 10px;
+}
+
+.d-whey h5 {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+}
+
+.d-touro h3 {
+  color: var(--branco);
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  text-align: center;
+}
+
+.d-touro h4 {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+  margin-left: 10px;
+}
+
+.d-touro h5 {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+}
+
+.d-over h3 {
+  color: var(--branco);
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  text-align: center;
+}
+
+.d-over h4 {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+  margin-left: 10px;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.valor {
+  text-decoration: line-through;
+  font-size: 2.4vh;
+  font-weight: 300;
+}
+
+.real {
+  font-weight: 600;
+}
+
+#botão-carrinho-um {
+  width: 19.852941176470587vw;
+  height: 6.56vh;
+
+  background-color: var(--branco);
+  color: var(--vinho);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  border-style: none;
+
+  cursor: pointer;
+  margin-left: 8.235294117647058vw;
+  margin-top: 2vh;
+}
+
+#botão-carrinho-um:hover {
+  color: var(--vinho-h);
+}
+
+#botão-ver-um {
+  width: 19.852941176470587vw;
+  height: 6.56vh;
+
+  background-color: var(--vinho);
+  color: var(--branco);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  border-style: none;
+
+  cursor: pointer;
+  margin-left: 8.235294117647058vw;
+  margin-top: 2vh;
+}
+
+#botão-ver-um:hover {
+  background-color: var(--vinho-h);
+}
+
+.d2-whey h3 {
+  color: var(--branco);
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+}
+
+.d2-whey h4 {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+}
+
+.d2-whey h5 {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+}
+
+.d3-whey h3 {
+  color: var(--branco);
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+}
+
+.d3-whey h4 {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+}
+
+.d3-whey h5 {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 3.2vh;
+  color: var(--branco);
+}
+
+footer {
+  width: 100%;
+  height: 18vh;
+  background-color: var(--preto);
+}
+
+footer h2 {
+  color: var(--branco);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.baner {
+  width: 100%;
+  height: 385px;
+}
+
+.sub-icones {
+  display: flex;
+  width: 958px;
+  height: 146px;
+
+  background-color: white;
+
+  margin-top: 400px;
+  margin-left: 177px;
+}
+
+#produto1 {
+  width: 105.42px;
+  height: 76px;
+  margin-right: 170px;
+}
+
+#produto2 {
+  width: 105.42px;
+  height: 76px;
+  margin-right: 170px;
+}
+
+#produto3 {
+  width: 105.42px;
+  height: 76px;
+  margin-right: 170px;
+}
+#produto4 {
+  width: 100px;
+  height: 94px;
+}
+
+.promoções h5 {
+  animation: fly 30s;
+  animation-iteration-count: infinite;
+  color: var(--branco);
+  font-weight: 400;
+  animation-timing-function: linear;
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(135%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.d-whey #Iluminos {
+  font-weight: 300;
+}
+
+.d-whey #valor {
+  font-weight: 300;
+  font-size: 15px;
+}
